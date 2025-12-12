@@ -12,9 +12,9 @@ The program is controlled using only the device's face buttons.
 * Playback mode: Plays back the recorded buffer as Morse code, both via the LED display and audio through the pin interface.
 ## Input mode guide
 In input mode, rows on the LED will fill up as you hold the **A** button.
-1 Led (# .  .  .  . ) - Morse code dot
-2-4 Leds (# # .  .  . ) .. (# # # # . ) - Morse code dash
-5 Leds (# # # # #) - Special control
+- 1 Led (# .  .  .  . ) - Morse code dot
+- 2-4 Leds (# # .  .  . ) .. (# # # # . ) - Morse code dash
+- 5 Leds (# # # # #) - Special control
 Once you start inputting, the character will automatically be evaluated after a short period of no input.
 
 After you enter a character, the screen will display:
