@@ -1,5 +1,6 @@
 ## About
 MicroTelegraph is a simplistic Morse code learning and playback tool for the BBC Micro:bit family of educational development boards.
+
 If you happen to have one of these laying around, why not use it to learn Morse code?
 ## Usage
 The program is controlled using only the device's face buttons.
@@ -25,7 +26,8 @@ Special controls:
 * 1x full row: Spacebar
 * 2x full rows: Backspace
 ### Todo
-- Force skipping modes (currently, when trying to cycle modes in Playback and Display modes, the action will be postponed until the current display cycle finishes. 
+- [ ] Force skipping modes (currently, when trying to cycle modes in Playback and Display modes, the action will be postponed until the current display cycle finishes.
+- [ ] Tidy up the code (It works but it's very unpolished)
 
 ## Compiling
 Simply open the official Micro:bit online editor, copy the contents of `morse.ts` into the Javascript editor and hit download to obtain the hex file. Afterwards, flash it as usual.
